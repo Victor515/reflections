@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could see where I have changed the file, and then checked whether I have made any mistakes when writing new lines.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    For a huge program, thousands of lines of code will be produced, keeping the entire history of a file makes it easy to go back to previous version once I found something wrong.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: I know what version I save, all of which are logical. Too many versions will just make version out of control.
+    Cons: Forgetting to save will cause disasters.  And you need to find a balance between too big and too small changes (One commit per logical change).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    For version control, saving mutiple files of the same project in one commit allows easy control.
+    For Google Docs, most of the files saved are unrrelated to each other, so saving seperately is fine. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Using git log in the repository can view different commits of that repository starting from the latest.
+    Using git diff can see the difference between two commits (Usually, the more recent one is the second file).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because I always have my previous version, and I can always go back to previous versions to check. Nice!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Maybe save some of my python code for molecular simulation? Nice!
