@@ -8,13 +8,15 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-	We can compare working directory to staging area before add files to staging area(git diff), so that we can know what changes have been made.
+	We can compare working directory to staging area before adding files to staging area(git diff), so that we can know what changes have been made.
 	Then we can compare staging area to most recent comiit, to make sure we add the exact files we want to commit(git diff --staged).
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches will help to create a sub-version of the program, so that you can make changes to only that version(It is possible to merge this version with master branch). Branches keep history organized because all the changes will be kept in one branch version, without changing other versions.
 
 How do the diagrams help you visualize the branch structure?
+	So git only stores the tip of the branch and trace back in reference to its parent. The diagrams visualize this structure, making it more understandable to me.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
